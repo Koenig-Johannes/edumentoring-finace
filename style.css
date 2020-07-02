@@ -33,13 +33,13 @@ h1 {
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: calc( 21.296px + 32.704 * ((100vw - 320px) / 880));
+    font-size: calc( 21.296px + 13.856 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 54px;
+    font-size: 35.152px;
   }
 }
 
@@ -54,13 +54,13 @@ h2 {
 
 @media screen and (min-width: 320px) {
   h2 {
-    font-size: calc( 21.296px + 32.704 * ((100vw - 320px) / 880));
+    font-size: calc( 21.296px + 13.856 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   h2 {
-    font-size: 54px;
+    font-size: 35.152px;
   }
 }
 
@@ -75,13 +75,13 @@ h3 {
 
 @media screen and (min-width: 320px) {
   h3 {
-    font-size: calc( 19.36px + 16.64 * ((100vw - 320px) / 880));
+    font-size: calc( 19.36px + 7.68 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   h3 {
-    font-size: 36px;
+    font-size: 27.04px;
   }
 }
 
@@ -94,7 +94,7 @@ body {
   border: 3px solid #64d959;
   border-radius: 5px;
   color: #64d959;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.527);
   font-size: 1.2em;
   margin: 0.5em;
   padding: 0.3em;
@@ -229,6 +229,7 @@ body {
 }
 
 .supporter .quote h2 {
+  max-width: 900px;
   font-size: 0.8em;
   color: #fffdfd;
   text-shadow: 2px 2px 4px #000000;
@@ -237,7 +238,7 @@ body {
 
 .supporter h2 {
   text-align: center;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 .supporter .logos {
@@ -278,6 +279,7 @@ body {
 }
 
 .three-projects h2 {
+  max-width: 750px;
   margin: 1em 0.5em;
   text-align: center;
 }
@@ -333,6 +335,7 @@ body {
 
 .three-projects .fusion {
   width: 20em;
+  margin: 2em 0 3em 0;
 }
 
 .together {
@@ -373,7 +376,7 @@ body {
 
 .process h2 {
   text-align: center;
-  margin: 1em 0;
+  margin: 3em 0em 1em 0;
 }
 
 .process .charts {
@@ -452,6 +455,7 @@ body {
 
 .support-us h3 {
   padding: 1em;
+  text-align: center;
 }
 
 footer {
@@ -471,5 +475,16 @@ footer {
 
 footer ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer ul li {
+  margin: 1em;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

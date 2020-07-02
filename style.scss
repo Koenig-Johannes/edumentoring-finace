@@ -44,7 +44,7 @@ html {
 }
 
 $mod_1: 1.1; // mobile
-$mod_2: 1.5; // desktop
+$mod_2: 1.3; // desktop
 
 h1 {
   font-size: $mod_1 * $mod_1 * $mod_1 * $mod_1 * 1rem;
@@ -88,7 +88,7 @@ body {
   border: 3px solid #64d959;
   border-radius: 5px;
   color: #64d959;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.527);
   font-size: 1.2em;
   margin: 0.5em;
   padding: 0.3em;
@@ -190,6 +190,7 @@ body {
     justify-content: center;
 
     h2 {
+      max-width: 900px;
       font-size: 0.8em;
       color: #fffdfd;
       text-shadow: 2px 2px 4px #000000;
@@ -198,7 +199,7 @@ body {
   }
   h2 {
     text-align: center;
-    margin: 1em 0;
+    margin: 2em 0;
   }
 
   .logos {
@@ -225,6 +226,7 @@ body {
   flex-direction: column;
   align-items: center;
   h2 {
+    max-width: 750px;
     margin: 1em 0.5em;
     text-align: center;
   }
@@ -266,6 +268,7 @@ body {
   }
   .fusion {
     width: 20em;
+    margin: 2em 0 3em 0;
   }
 }
 
@@ -298,7 +301,7 @@ body {
 .process {
   h2 {
     text-align: center;
-    margin: 1em 0;
+    margin: 3em 0em 1em 0;
   }
 
   .charts {
@@ -352,6 +355,7 @@ body {
   }
   h3 {
     padding: 1em;
+    text-align: center;
   }
 }
 
@@ -364,5 +368,11 @@ footer {
   justify-content: center;
   ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+      margin: 1em;
+      cursor: pointer;
+    }
   }
 }
