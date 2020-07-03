@@ -245,15 +245,16 @@ body {
       box-shadow: 2px 3px 4px #dfdfdf;
       border-radius: 9px;
 
-      width: 20rem;
+      width: 17rem;
       margin: 1em;
       padding: 0.5em;
       img {
-        width: 19em;
+        width: 16em;
         border-radius: 9px;
       }
       h4 {
         margin-top: 1em 0;
+        font-size: 0.9em;
       }
       .expl {
         margin-bottom: 1em;
@@ -261,6 +262,7 @@ body {
       }
       p {
         margin-bottom: 1em;
+        font-size: 0.75em;
       }
       a {
         text-decoration: none;
