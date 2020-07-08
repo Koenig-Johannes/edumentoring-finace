@@ -261,6 +261,7 @@ header a:hover {
 }
 
 .supporter h2 {
+  padding-top: 2em;
   text-align: center;
   margin: 2em 0;
 }
@@ -371,8 +372,7 @@ header a:hover {
 
 .together {
   background: #eae8eb;
-  padding: 1em;
-  margin: 2em 0;
+  padding: 2em 0;
 }
 
 .together h2 {
