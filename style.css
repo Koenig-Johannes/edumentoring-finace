@@ -89,31 +89,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.button-pitch {
-  width: 10em;
-  border: 3px solid #64d959;
-  border-radius: 5px;
-  color: #64d959;
-  background-color: rgba(255, 255, 255, 0.527);
-  font-size: 1.2em;
-  margin: 0.5em;
-  padding: 0.3em;
-  cursor: pointer;
-}
-
-.button-pitch:hover {
-  color: white;
-  background-color: #64d959;
-}
-
 .button-support {
   width: 10em;
+  height: 2em;
   border: 3px solid #64d959;
   border-radius: 5px;
   color: white;
   background-color: #64d959;
   font-size: 1.2em;
-  margin: 0.5em;
   padding: 0.3em;
   cursor: pointer;
 }
@@ -123,8 +106,44 @@ body {
   border: 3px solid #5ac250;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  -webkit-box-shadow: 2px 3px 4px #dfdfdf;
+          box-shadow: 2px 3px 4px #dfdfdf;
+}
+
+header img {
+  width: 15em;
+}
+
+header a {
+  text-decoration: none;
+  color: #333333;
+}
+
+header a:hover {
+  color: #4e4e4e;
+}
+
 .hero-section {
-  min-height: 100vh;
+  min-height: 70vh;
   background-image: url(media/hero.jpg);
   background-position: center;
   background-size: cover;
@@ -151,6 +170,7 @@ body {
 .hero-section .wrapper p {
   padding: 1em 0;
   font-size: 1.5em;
+  font-style: italic;
 }
 
 .hackathon-projects {
@@ -314,7 +334,11 @@ body {
   padding: 0.5em;
 }
 
-.three-projects .projects .project img {
+.three-projects .projects .project .wrapper {
+  height: 13em;
+}
+
+.three-projects .projects .project .wrapper img {
   width: 16em;
   border-radius: 9px;
 }
@@ -382,7 +406,7 @@ body {
   font-size: 1.2em;
 }
 
-.edumentoring {
+.process {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,13 +419,13 @@ body {
           align-items: center;
 }
 
-.edumentoring h2 {
+.process h2 {
   max-width: 750px;
-  margin: 1em 0.5em;
+  margin: 1em auto;
   text-align: center;
 }
 
-.edumentoring .fusion {
+.process .fusion {
   width: 20em;
   margin: 2em 0 3em 0;
 }

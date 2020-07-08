@@ -83,31 +83,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.button-pitch {
-  width: 10em;
-  border: 3px solid #64d959;
-  border-radius: 5px;
-  color: #64d959;
-  background-color: rgba(255, 255, 255, 0.527);
-  font-size: 1.2em;
-  margin: 0.5em;
-  padding: 0.3em;
-  cursor: pointer;
-}
-
-.button-pitch:hover {
-  color: white;
-  background-color: #64d959;
-}
-
 .button-support {
   width: 10em;
+  height: 2em;
   border: 3px solid #64d959;
   border-radius: 5px;
   color: white;
   background-color: #64d959;
   font-size: 1.2em;
-  margin: 0.5em;
   padding: 0.3em;
   cursor: pointer;
 }
@@ -119,8 +102,32 @@ body {
 
 // sections
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 2px 3px 4px #dfdfdf;
+
+  img {
+    width: 15em;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+  }
+  a:hover {
+    color: rgb(78, 78, 78);
+  }
+}
+
 .hero-section {
-  min-height: 100vh;
+  min-height: 70vh;
   background-image: url(media/hero.jpg);
   background-position: center;
   background-size: cover;
@@ -136,6 +143,7 @@ body {
     p {
       padding: 1em 0;
       font-size: 1.5em;
+      font-style: italic;
     }
   }
 }
@@ -248,10 +256,14 @@ body {
       width: 17rem;
       margin: 1em;
       padding: 0.5em;
-      img {
-        width: 16em;
-        border-radius: 9px;
+      .wrapper {
+        height: 13em;
+        img {
+          width: 16em;
+          border-radius: 9px;
+        }
       }
+
       h4 {
         margin-top: 1em 0;
         font-size: 0.9em;
@@ -304,13 +316,14 @@ body {
   }
 }
 
-.edumentoring {
+.process {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   h2 {
     max-width: 750px;
-    margin: 1em 0.5em;
+    margin: 1em auto;
     text-align: center;
   }
 
@@ -318,9 +331,7 @@ body {
     width: 20em;
     margin: 2em 0 3em 0;
   }
-}
 
-.process {
   h2 {
     text-align: center;
     margin: 3em 1.5em 1em 1.5em;
