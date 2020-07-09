@@ -362,6 +362,7 @@ header {
 
   p {
     max-width: 35em;
+    padding: 0 0.5em;
   }
 
   h2 {
@@ -506,6 +507,13 @@ footer {
     li {
       margin: 1em;
       cursor: pointer;
+      a {
+        text-decoration: none;
+        color: rgb(51, 51, 51);
+      }
+      a:hover {
+        color: rgb(78, 78, 78);
+      }
     }
   }
 }

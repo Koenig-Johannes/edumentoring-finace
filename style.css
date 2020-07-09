@@ -467,6 +467,7 @@ header a:hover {
 
 .support-us p {
   max-width: 35em;
+  padding: 0 0.5em;
 }
 
 .support-us h2 {
@@ -670,5 +671,14 @@ footer ul {
 footer ul li {
   margin: 1em;
   cursor: pointer;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+footer ul li a:hover {
+  color: #4e4e4e;
 }
 /*# sourceMappingURL=style.css.map */
