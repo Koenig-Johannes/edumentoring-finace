@@ -12,13 +12,13 @@ html {
 
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc( 16px + 8 * ((100vw - 320px) / 880));
+    font-size: calc( 16px + 2 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -33,13 +33,13 @@ h1 {
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: calc( 21.296px + 13.856 * ((100vw - 320px) / 880));
+    font-size: calc( 21.296px + 6.352 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 35.152px;
+    font-size: 27.648px;
   }
 }
 
@@ -54,13 +54,13 @@ h2 {
 
 @media screen and (min-width: 320px) {
   h2 {
-    font-size: calc( 21.296px + 13.856 * ((100vw - 320px) / 880));
+    font-size: calc( 21.296px + 6.352 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   h2 {
-    font-size: 35.152px;
+    font-size: 27.648px;
   }
 }
 
@@ -75,13 +75,13 @@ h3 {
 
 @media screen and (min-width: 320px) {
   h3 {
-    font-size: calc( 19.36px + 7.68 * ((100vw - 320px) / 880));
+    font-size: calc( 19.36px + 3.68 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
   h3 {
-    font-size: 27.04px;
+    font-size: 23.04px;
   }
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .button-support {
-  width: 10em;
+  width: 12em;
   height: 2em;
   border: 3px solid #64d959;
   border-radius: 5px;
@@ -228,7 +228,7 @@ header a:hover {
 }
 
 .problem .wrapper {
-  max-width: 40rem;
+  max-width: 35rem;
 }
 
 .supporter {
@@ -429,6 +429,15 @@ header a:hover {
   padding: 1em 0.5em;
 }
 
+.process .charts .chart a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.process .charts .chart a:hover {
+  color: #4e4e4e;
+}
+
 .support-us {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,10 +445,17 @@ header a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.support-us p {
+  max-width: 35em;
 }
 
 .support-us h2 {
@@ -469,7 +485,7 @@ header a:hover {
 }
 
 .support-us .wrapper .content ul {
-  margin: 1em 0;
+  margin: 1em;
 }
 
 .support-us .wrapper-bottom {
@@ -482,6 +498,7 @@ header a:hover {
 }
 
 .support-us .wrapper-bottom p {
+  margin: auto;
   background: #ffffff;
   -webkit-box-shadow: 2px 3px 4px #dfdfdf;
           box-shadow: 2px 3px 4px #dfdfdf;
@@ -496,6 +513,118 @@ header a:hover {
 .support-us h3 {
   padding: 1em;
   text-align: center;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .johannes {
+  margin: 1em;
+  padding: 1em;
+  background: #ffffff;
+  -webkit-box-shadow: 2px 3px 4px #dfdfdf;
+          box-shadow: 2px 3px 4px #dfdfdf;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 25em;
+}
+
+.contact .johannes a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact .johannes a:hover {
+  color: #4e4e4e;
+}
+
+.contact .johannes .phone {
+  margin: 0.5em 0;
+}
+
+.contact .johannes img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.contact .johannes div {
+  padding: 1em;
+}
+
+.contact .johannes .title {
+  margin: 0.5em 0;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.contact .johannes .im-linkedin {
+  margin-left: 1em;
+}
+
+.contact .jonas {
+  margin: 1em;
+  padding: 1em;
+  background: #ffffff;
+  -webkit-box-shadow: 2px 3px 4px #dfdfdf;
+          box-shadow: 2px 3px 4px #dfdfdf;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 25em;
+}
+
+.contact .jonas a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact .jonas a:hover {
+  color: #4e4e4e;
+}
+
+.contact .jonas img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.contact .jonas div {
+  padding: 1em;
+}
+
+.contact .jonas .title {
+  margin: 0.5em 0;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.contact .jonas .im-linkedin {
+  margin-left: 1em;
 }
 
 footer {

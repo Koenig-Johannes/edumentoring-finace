@@ -31,7 +31,7 @@
 $min_width: 320px;
 $max_width: 1200px;
 $min_font: 16px;
-$max_font: 24px;
+$max_font: 18px;
 
 * {
   box-sizing: border-box;
@@ -44,7 +44,7 @@ html {
 }
 
 $mod_1: 1.1; // mobile
-$mod_2: 1.3; // desktop
+$mod_2: 1.2; // desktop
 
 h1 {
   font-size: $mod_1 * $mod_1 * $mod_1 * $mod_1 * 1rem;
@@ -84,7 +84,7 @@ body {
 }
 
 .button-support {
-  width: 10em;
+  width: 12em;
   height: 2em;
   border: 3px solid #64d959;
   border-radius: 5px;
@@ -182,7 +182,7 @@ header {
     margin: 0 0 1.5em 0;
   }
   .wrapper {
-    max-width: 40rem;
+    max-width: 35rem;
   }
 }
 
@@ -331,6 +331,14 @@ header {
       p {
         padding: 1em 0.5em;
       }
+
+      a {
+        text-decoration: none;
+        color: rgb(51, 51, 51);
+      }
+      a:hover {
+        color: rgb(78, 78, 78);
+      }
     }
   }
 }
@@ -338,7 +346,12 @@ header {
 .support-us {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+
+  p {
+    max-width: 35em;
+  }
 
   h2 {
     text-align: center;
@@ -357,7 +370,7 @@ header {
       max-width: 25rem;
 
       ul {
-        margin: 1em 0;
+        margin: 1em;
       }
     }
   }
@@ -367,6 +380,7 @@ header {
     flex: 0 0 auto;
     flex-shrink: 0;
     p {
+      margin: auto;
       background: #ffffff;
       box-shadow: 2px 3px 4px #dfdfdf;
       border-radius: 9px;
@@ -380,6 +394,87 @@ header {
   h3 {
     padding: 1em;
     text-align: center;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .johannes {
+    margin: 1em;
+    padding: 1em;
+    background: #ffffff;
+    box-shadow: 2px 3px 4px #dfdfdf;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 25em;
+
+    a {
+      text-decoration: none;
+      color: rgb(51, 51, 51);
+    }
+    a:hover {
+      color: rgb(78, 78, 78);
+    }
+    .phone {
+      margin: 0.5em 0;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+    div {
+      padding: 1em;
+    }
+    .title {
+      margin: 0.5em 0;
+      font-style: italic;
+      font-size: 0.8em;
+    }
+    .im-linkedin {
+      margin-left: 1em;
+    }
+  }
+  .jonas {
+    margin: 1em;
+    padding: 1em;
+    background: #ffffff;
+    box-shadow: 2px 3px 4px #dfdfdf;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 25em;
+
+    a {
+      text-decoration: none;
+      color: rgb(51, 51, 51);
+    }
+    a:hover {
+      color: rgb(78, 78, 78);
+    }
+
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+    div {
+      padding: 1em;
+    }
+    .title {
+      margin: 0.5em 0;
+      font-style: italic;
+      font-size: 0.8em;
+    }
+    .im-linkedin {
+      margin-left: 1em;
+    }
   }
 }
 
