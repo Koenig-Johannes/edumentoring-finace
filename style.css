@@ -169,7 +169,6 @@ header a:hover {
 
 .hero-section .wrapper p {
   padding: 1em 0;
-  font-size: 1.5em;
   font-style: italic;
 }
 
@@ -500,9 +499,22 @@ header a:hover {
   max-width: 20em;
 }
 
-.support-us .wrapper p {
+.support-us .wrapper .content {
   padding: 1em;
   max-width: 25rem;
+}
+
+.support-us .wrapper .content ul {
+  margin: 1em 0;
+}
+
+.support-us .wrapper-bottom {
+  max-width: 45em;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .support-us button {

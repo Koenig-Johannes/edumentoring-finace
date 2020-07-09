@@ -142,7 +142,6 @@ header {
 
     p {
       padding: 1em 0;
-      font-size: 1.5em;
       font-style: italic;
     }
   }
@@ -366,6 +365,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+
   h2 {
     text-align: center;
     margin: 2em 0 1em 0;
@@ -378,11 +378,22 @@ header {
       padding: 1em;
       max-width: 20em;
     }
-    p {
+    .content {
       padding: 1em;
       max-width: 25rem;
+
+      ul {
+        margin: 1em 0;
+      }
     }
   }
+
+  .wrapper-bottom {
+    max-width: 45em;
+    flex: 0 0 auto;
+    flex-shrink: 0;
+  }
+
   button {
     margin: auto;
   }
