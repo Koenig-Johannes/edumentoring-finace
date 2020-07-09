@@ -289,32 +289,6 @@ header {
   }
 }
 
-.together {
-  background: #eae8eb;
-  padding: 2em 0;
-  h2 {
-    text-align: center;
-    margin: 1em 0;
-  }
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em 0;
-    img {
-      height: 10em;
-      width: 10em;
-      border-radius: 50%;
-      background-color: #b1b1b1;
-    }
-    p {
-      max-width: 15em;
-      margin-left: 1em;
-      font-size: 1.2em;
-    }
-  }
-}
-
 .process {
   display: flex;
   flex-direction: column;
@@ -392,6 +366,12 @@ header {
     max-width: 45em;
     flex: 0 0 auto;
     flex-shrink: 0;
+    p {
+      background: #ffffff;
+      box-shadow: 2px 3px 4px #dfdfdf;
+      border-radius: 9px;
+      padding: 1em;
+    }
   }
 
   button {

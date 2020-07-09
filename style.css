@@ -369,42 +369,6 @@ header a:hover {
   margin: 2em 0 3em 0;
 }
 
-.together {
-  background: #eae8eb;
-  padding: 2em 0;
-}
-
-.together h2 {
-  text-align: center;
-  margin: 1em 0;
-}
-
-.together .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 1em 0;
-}
-
-.together .wrapper img {
-  height: 10em;
-  width: 10em;
-  border-radius: 50%;
-  background-color: #b1b1b1;
-}
-
-.together .wrapper p {
-  max-width: 15em;
-  margin-left: 1em;
-  font-size: 1.2em;
-}
-
 .process {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,6 +479,14 @@ header a:hover {
           flex: 0 0 auto;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+
+.support-us .wrapper-bottom p {
+  background: #ffffff;
+  -webkit-box-shadow: 2px 3px 4px #dfdfdf;
+          box-shadow: 2px 3px 4px #dfdfdf;
+  border-radius: 9px;
+  padding: 1em;
 }
 
 .support-us button {
