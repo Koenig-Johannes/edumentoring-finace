@@ -87,6 +87,7 @@ h3 {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #222222;
 }
 
 .button-support {
@@ -165,6 +166,10 @@ header a:hover {
 .hero-section .wrapper {
   margin: 1em;
   max-width: 1000px;
+}
+
+.hero-section .wrapper h1 {
+  font-size: 1.7em;
 }
 
 .hero-section .wrapper p {
@@ -260,7 +265,7 @@ header a:hover {
 }
 
 .supporter h2 {
-  padding-top: 2em;
+  padding: 2em 0;
   text-align: center;
   margin: 2em 0;
 }
@@ -309,6 +314,11 @@ header a:hover {
   text-align: center;
 }
 
+.three-projects p {
+  max-width: 35em;
+  margin: 1em 0;
+}
+
 .three-projects h3 {
   margin: 1em 0.5em;
 }
@@ -322,6 +332,7 @@ header a:hover {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 2em 0;
 }
 
 .three-projects .projects .project {
@@ -498,7 +509,7 @@ header a:hover {
 }
 
 .support-us .wrapper-bottom p {
-  margin: auto;
+  margin: 1em auto 2em;
   background: #ffffff;
   -webkit-box-shadow: 2px 3px 4px #dfdfdf;
           box-shadow: 2px 3px 4px #dfdfdf;
@@ -525,9 +536,12 @@ header a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contact .johannes {
+  height: 12em;
   margin: 1em;
   padding: 1em;
   background: #ffffff;
@@ -543,7 +557,7 @@ header a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 25em;
+  width: 25em;
 }
 
 .contact .johannes a {
@@ -580,6 +594,7 @@ header a:hover {
 }
 
 .contact .jonas {
+  height: 12em;
   margin: 1em;
   padding: 1em;
   background: #ffffff;
@@ -595,7 +610,7 @@ header a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 25em;
+  width: 25em;
 }
 
 .contact .jonas a {

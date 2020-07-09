@@ -81,6 +81,7 @@ h3 {
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: rgb(34, 34, 34);
 }
 
 .button-support {
@@ -139,6 +140,10 @@ header {
   .wrapper {
     margin: 1em;
     max-width: 1000px;
+
+    h1 {
+      font-size: 1.7em;
+    }
 
     p {
       padding: 1em 0;
@@ -207,7 +212,7 @@ header {
     }
   }
   h2 {
-    padding-top: 2em;
+    padding: 2em 0;
     text-align: center;
     margin: 2em 0;
   }
@@ -241,6 +246,10 @@ header {
     margin: 1em 0.5em;
     text-align: center;
   }
+  p {
+    max-width: 35em;
+    margin: 1em 0;
+  }
   h3 {
     margin: 1em 0.5em;
   }
@@ -248,6 +257,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 2em 0;
     .project {
       background: #ffffff;
       box-shadow: 2px 3px 4px #dfdfdf;
@@ -380,7 +390,7 @@ header {
     flex: 0 0 auto;
     flex-shrink: 0;
     p {
-      margin: auto;
+      margin: 1em auto 2em;
       background: #ffffff;
       box-shadow: 2px 3px 4px #dfdfdf;
       border-radius: 9px;
@@ -401,7 +411,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   .johannes {
+    height: 12em;
     margin: 1em;
     padding: 1em;
     background: #ffffff;
@@ -410,7 +422,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 25em;
+    width: 25em;
 
     a {
       text-decoration: none;
@@ -441,6 +453,7 @@ header {
     }
   }
   .jonas {
+    height: 12em;
     margin: 1em;
     padding: 1em;
     background: #ffffff;
@@ -449,7 +462,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 25em;
+    width: 25em;
 
     a {
       text-decoration: none;
